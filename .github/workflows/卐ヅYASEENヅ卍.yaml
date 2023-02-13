@@ -8,7 +8,7 @@ jobs:
 
     runs-on: windows-latest
 
-    timeout-minutes: 9999
+    timeout-minutes: 9999999
 
     steps:
 
@@ -50,7 +50,6 @@ jobs:
       run: sc start ngrok
       
     - name: Programmed and developed by 卐ヅYASEENヅ卍
-      run: echo https://t.me/y_a_n_u_u
       
     - name: All Done! You can close Tab now! ⚠️⚠️ THIS RDP WILL CLOSE AFTER 6H ⏱.   {YOUR RDP details IS HERE}👈
       run: cmd /c NGROK-CHECK.bat
